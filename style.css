@@ -1,0 +1,96 @@
+﻿@charset "UTF-8";
+
+/* 全要素の初期設定の余白ゼロ */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+img{
+	vertical-align: bottom;
+}
+
+.clearfix:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+body{
+	color: #17274d;
+	font-family:"メイリオ", Osaka, sans-serif;
+	background-color: #ccc;
+}
+
+/* ページ構造に関する記述 */
+.wrapper{
+	width: 700px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+header{
+	margin-bottom: 20px;
+}
+
+.main-pic{
+	width: 500px;
+	margin-left: 100px;
+	margin-bottom: 20px;
+}
+
+.list{
+	width: 500px;
+	margin-left: 100px;
+	margin-bottom: 20px;
+}
+
+.play{
+	width: 235px;
+	float: left;
+}
+
+.watch{
+	width: 235px;
+	float: right;
+}
+
+.title{
+	width: 235px;
+	font-size: 20px;
+	background-color: #8acfe6;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+li{
+	margin-left: 30px;
+}
+
+a{
+	color: #17274d;
+	text-decoration: none;
+}
+
+footer{
+	background-color: #8acfe6;
+	font-size: 14px;
+	text-align: center;
+	padding: 5px;
+}
+
+/*a:link{
+	color: green;
+}
+
+a:visited{
+	color: yellow;
+}
+
+a:hover{s
+	background: #ddd;
+}
+
+a:active{
+	font-size: 300%;
+}*/
